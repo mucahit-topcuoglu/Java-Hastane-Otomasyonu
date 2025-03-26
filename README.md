@@ -51,16 +51,16 @@ Bu proje, hastanelerin günlük operasyonlarını yönetmek için tasarlanmış 
 ![Giriş Ekranı](hastaneotomasyonu/screenshots/giris.png)
 
 ### Admin Paneli
-![Admin Paneli](screenshots/admin.png)
+![Admin Paneli](hastaneotomasyonu/screenshots/admin.png)
 
 ### Doktor Paneli
-![Doktor Paneli](screenshots/doktor.png)
+![Doktor Paneli](hastaneotomasyonu/screenshots/doktor.png)
 
 ### Hasta Paneli
-![Hasta Paneli](screenshots/hasta.png)
+![Hasta Paneli](hastaneotomasyonu/screenshots/hasta.png)
 
 ### Personel Paneli
-![Personel Paneli](screenshots/personel.png)
+![Personel Paneli](hastaneotomasyonu/screenshots/personel.png)
 
 ## Veritabanı Şeması
 
