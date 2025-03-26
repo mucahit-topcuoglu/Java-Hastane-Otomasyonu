@@ -48,7 +48,7 @@ Bu proje, hastanelerin günlük operasyonlarını yönetmek için tasarlanmış 
 ## Ekran Görüntüleri
 
 ### Giriş Ekranı
-![Giriş Ekranı](screenshots/giris.png)
+![Giriş Ekranı](hastaneotomasyonu/screenshots/giris.png)
 
 ### Admin Paneli
 ![Admin Paneli](screenshots/admin.png)
