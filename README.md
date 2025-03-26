@@ -126,7 +126,7 @@ Sistem aşağıdaki temel tablolardan oluşmaktadır:
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/hastaneotomasyonu.git
+git clone https://github.com/mucahit-topcuoglu/hastaneotomasyonu.git
 ```
 
 2. MySQL veritabanını kurun ve `hastane.sql` dosyasını import edin.
