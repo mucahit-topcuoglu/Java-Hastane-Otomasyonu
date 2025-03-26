@@ -2,23 +2,6 @@
 
 Bu proje, hastanelerin günlük operasyonlarını yönetmek için tasarlanmış kapsamlı bir otomasyon sistemidir. Java Swing kullanılarak geliştirilmiş masaüstü uygulamasıdır.
 
-## Ekran Görüntüleri
-
-### Giriş Ekranı
-![Giriş Ekranı](screenshots/giris.png)
-
-### Admin Paneli
-![Admin Paneli](screenshots/admin.png)
-
-### Doktor Paneli
-![Doktor Paneli](screenshots/doktor.png)
-
-### Hasta Paneli
-![Hasta Paneli](screenshots/hasta.png)
-
-### Personel Paneli
-![Personel Paneli](screenshots/personel.png)
-
 ## Özellikler
 
 - **Çoklu Kullanıcı Rolü**
@@ -62,35 +45,28 @@ Bu proje, hastanelerin günlük operasyonlarını yönetmek için tasarlanmış 
 - MySQL
 - JDBC
 
-## Kurulum
+## Ekran Görüntüleri
 
-1. Projeyi klonlayın:
-```bash
-git clone https://github.com/kullaniciadi/hastaneotomasyonu.git
-```
+### Giriş Ekranı
+![Giriş Ekranı](screenshots/giris.png)
 
-2. MySQL veritabanını kurun ve `hastane.sql` dosyasını import edin.
+### Admin Paneli
+![Admin Paneli](screenshots/admin.png)
 
-3. `src/VeriTabaniBaglantisi.java` dosyasında veritabanı bağlantı bilgilerini güncelleyin:
-```java
-String url = "jdbc:mysql://localhost:3306/hastane";
-String kullaniciAdi = "root";
-String sifre = "1234";
-```
+### Doktor Paneli
+![Doktor Paneli](screenshots/doktor.png)
 
-4. Projeyi derleyin ve çalıştırın:
-```bash
-javac Main.java
-java Main
-```
+### Hasta Paneli
+![Hasta Paneli](screenshots/hasta.png)
+
+### Personel Paneli
+![Personel Paneli](screenshots/personel.png)
+
 
 ## Veritabanı Şeması
 
 ### ER Diyagramı
-![Veritabanı ER Diyagramı](database/er_diagram.png)
-
-### Tablo İlişkileri
-![Tablo İlişkileri](database/table_relations.png)
+![Veritabanı ER Diyagramı](hastaneotomasyonu/screenshots/erdiagram.png)
 
 Sistem aşağıdaki temel tablolardan oluşmaktadır:
 
@@ -147,6 +123,28 @@ Sistem aşağıdaki temel tablolardan oluşmaktadır:
   - İşlem tarihi
   - Ödeme yöntemi
 
+## Kurulum
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/mucahit-topcuoglu/hastaneotomasyonu.git
+```
+
+2. MySQL veritabanını kurun ve `hastane.sql` dosyasını import edin.
+
+3. `src/VeriTabaniBaglantisi.java` dosyasında veritabanı bağlantı bilgilerini güncelleyin:
+```java
+String url = "jdbc:mysql://localhost:3306/hastane";
+String kullaniciAdi = "root";
+String sifre = "1234";
+```
+
+4. Projeyi derleyin ve çalıştırın:
+```bash
+javac Main.java
+java Main
+```
+
 ## Kullanım
 
 1. Uygulamayı başlatın
@@ -174,5 +172,5 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 ## İletişim
 
 Proje ile ilgili sorularınız için:
-- Email: [email@example.com]
-- GitHub: [github.com/kullaniciadi] 
+- Email: mmucahittopcuoglu@gmail.com
+- GitHub: github.com/mucahit-topcuoglu
