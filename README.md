@@ -65,7 +65,7 @@ Bu proje, hastanelerin günlük operasyonlarını yönetmek için tasarlanmış 
 ## Veritabanı Şeması
 
 ### ER Diyagramı
-![Veritabanı ER Diyagramı](database/erdiagram.png)
+![Veritabanı ER Diyagramı](hastaneotomasyonu/screenshots/erdiagram.png)
 
 Sistem aşağıdaki temel tablolardan oluşmaktadır:
 
